@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.*;
 
+import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
 import utils.DriverFactory;
 
 //import utils.DriverFactory;
@@ -23,6 +24,10 @@ public class HomePage {
     
     @FindBy(id = "shopping_cart_container")
     WebElement cart;
+    
+    public void show() {
+    	System.out.println("This is home page");
+    }
 
 
    
