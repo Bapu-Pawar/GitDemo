@@ -27,6 +27,8 @@ public class HomePage {
     
     public void show() {
     	System.out.println("This is home page");
+        System.out.println("Home page is updated")
+
     }
 
 
